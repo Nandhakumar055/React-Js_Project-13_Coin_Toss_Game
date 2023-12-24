@@ -1,0 +1,59 @@
+.coin-toss-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  background-color: white;
+  padding: 20px;
+}
+
+.coin-toss-card-container {
+  padding: 25px;
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.658) 0px 7px 29px 0px;
+}
+
+.game-heading {
+  color: #a35200;
+}
+.game-name-text {
+  color: #a35200;
+}
+
+.toss-image {
+  width: 200px;
+  height: 200px;
+}
+
+.toss-button {
+  color: #a35200;
+  background-color: #f9d423;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.count-text {
+  padding: 10px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
